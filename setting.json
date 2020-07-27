@@ -30,8 +30,10 @@
   // 
   // -> Color Theme（可选择安装一个合适的主题，例如大多数人喜欢暗黑模式，若你有合适的，可编辑加入）
   //
-  //    1. Horla Light Theme（本配置默认使用）
+  //    1. Eva Theme (本配置默认使用 Eva Light Bold)
   //    2. Material Theme（有多种黑暗模式的主题哦）
+  //    3. Horla Light Theme
+  //
   //
   // -> Java SpringBoot Support
   //  
@@ -72,7 +74,7 @@
   // VsCode 图标主题
   "workbench.iconTheme": "material-icon-theme",
   // VSCode 颜色主题
-  "workbench.colorTheme": "Horla",
+  "workbench.colorTheme": "Eva Light Bold",
   "editor.fontSize": 14.5,
   "editor.tabSize": 2,
 
@@ -83,7 +85,8 @@
     "**/.classpath": true,
     "**/.project": true,
     "**/.settings": true,
-  },
+    "**/.factorypath": true
+},
 
 
   // -------------------------------------------------------
@@ -114,7 +117,7 @@
         ],
         "settings": {
           // 字体样式：空表示 normal -> 不粗体不斜体
-          "fontStyle": ""
+          "fontStyle": "italic"
         }
       },
     ]
@@ -180,6 +183,8 @@
 
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "editor.suggestSelection": "first",
-  "editor.semanticTokenColorCustomizations": null
+  "editor.semanticTokenColorCustomizations": null,
+  "workbench.activityBar.visible": true,
+  "java.refactor.renameFromFileExplorer": "preview"
 
 }

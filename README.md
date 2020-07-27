@@ -47,8 +47,9 @@
   // 
   // -> Color Theme（可选择安装一个合适的主题，例如大多数人喜欢暗黑模式，若你有合适的，可编辑加入）
   //
-  //    1. Horla Light Theme（本配置默认使用）
+  //    1. Eva Theme (本配置默认使用 Eva Light Bold)
   //    2. Material Theme（有多种黑暗模式的主题哦）
+  //    3. Horla Light Theme
   //
   //
   // -> Java SpringBoot Support

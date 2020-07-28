@@ -50,7 +50,10 @@
   //    1. Eva Theme (本配置默认使用 Eva Light，其中有关键字粗体主题：Eva Light Bold)
   //    2. Material Theme（有多种黑暗模式的主题哦）
   //    3. Horla Light Theme
-  //
+  // 
+  // -> 快捷键插件(可选，看习惯)
+  //  
+  //    1. Eclipse Keymap
   //
   // -> Java SpringBoot Support
   //  

@@ -30,14 +30,9 @@
   // 
   // -> Color Theme（可选择安装一个合适的主题，例如大多数人喜欢暗黑模式，若你有合适的，可编辑加入）
   //
-  //    1. Eva Theme (本配置默认使用 Eva Light，其中有关键字粗体主题：Eva Light Bold)
+  //    1. Eva Theme (本配置默认使用 Eva Light Bold)
   //    2. Material Theme（有多种黑暗模式的主题哦）
   //    3. Horla Light Theme
-  //
-  //
-  // -> 快捷键插件(可选，看习惯)
-  //  
-  //    1. Eclipse Keymap
   //
   //
   // -> Java SpringBoot Support
@@ -81,7 +76,9 @@
   // VSCode 颜色主题
   "workbench.colorTheme": "Eva Light",
   "editor.fontSize": 14.5,
+  "editor.insertSpaces": true,
   "editor.tabSize": 2,
+  "files.autoSave": "off",
 
 
   "terminal.integrated.cursorStyle": "line",
@@ -190,6 +187,7 @@
   "editor.suggestSelection": "first",
   "editor.semanticTokenColorCustomizations": null,
   "workbench.activityBar.visible": true,
-  "java.refactor.renameFromFileExplorer": "preview"
+  "java.refactor.renameFromFileExplorer": "preview",
+  "update.mode": "start",
 
 }
